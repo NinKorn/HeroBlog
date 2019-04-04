@@ -1,0 +1,8 @@
+<!--pages/write/write.wxml-->
+<view class="section">
+  <form bindsubmit="bindFormSubmit">
+    <textarea class='title' placeholder="请输入标题" name="title" />
+    <textarea class='center' placeholder="现在的想法..." name="textarea" />
+    <button class='select-btn' form-type="submit">提交</button>
+  </form>
+</view>

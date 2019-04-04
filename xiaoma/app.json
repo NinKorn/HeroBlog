@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/write/write",
+    "pages/myblog/myblog",
+    "pages/info/info"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "博客码",
+    "navigationBarTextStyle": "black",
+    "onReachBottomDistance": "80px"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "首页",
+        "iconPath": "./icon/list.png",
+        "selectedIconPath": "./icon/list-act.png"
+      },
+      {
+        "pagePath": "pages/write/write",
+        "text": "写博客",
+        "iconPath": "./icon/edu.png",
+        "selectedIconPath": "./icon/edu-act.png"
+      },
+      {
+        "pagePath": "pages/myblog/myblog",
+        "text": "我的博客",
+        "iconPath": "./icon/blog.png",
+        "selectedIconPath": "./icon/blog-act.png"
+      }
+    ],
+    "backgroundColor": "#fff"
+  }
+}

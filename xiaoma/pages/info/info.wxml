@@ -1,0 +1,4 @@
+<!--pages/info/info.wxml-->
+<view class='title'>{{ blogInfo.title }}</view>
+<view class='body'>{{ blogInfo.article }}</view>
+<view class='time'>{{ blogInfo.time }}</view>
