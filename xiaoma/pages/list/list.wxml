@@ -1,4 +1,0 @@
-<i-cell-group>
-    <i-cell wx:for="{{blogList}}" wx:key="this.id" url="../info/info?id={{item.id}}" isLink="true" title="{{item.title}}"  label="时间:{{item.time}}" value="作者{{item.id}}">
-    </i-cell>
-</i-cell-group>

@@ -1,0 +1,19 @@
+/* pages/list/list.wxss */
+
+navigator {
+  margin-top: 10px;
+}
+
+image {
+  border-radius: 50%;
+}
+
+.content {
+  color: #495060;
+}
+
+.nomore {
+  text-align: center;
+  padding: 10px;
+  color: #bbbec4;
+}

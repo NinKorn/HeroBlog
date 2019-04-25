@@ -1,15 +1,18 @@
 {
   "pages": [
     "pages/list/list",
+    "pages/userLogin/userLogin",
+    "pages/register/register",
+    "pages/my/my",
     "pages/write/write",
     "pages/myblog/myblog",
     "pages/info/info"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#002661",
     "navigationBarTitleText": "博客码",
-    "navigationBarTextStyle": "black",
+    "navigationBarTextStyle": "light",
     "onReachBottomDistance": "80px"
   },
   "tabBar": {
@@ -27,8 +30,8 @@
         "selectedIconPath": "./icon/edu-act.png"
       },
       {
-        "pagePath": "pages/myblog/myblog",
-        "text": "我的博客",
+        "pagePath": "pages/my/my",
+        "text": "我的",
         "iconPath": "./icon/blog.png",
         "selectedIconPath": "./icon/blog-act.png"
       }

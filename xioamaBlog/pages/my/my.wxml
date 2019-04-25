@@ -1,0 +1,28 @@
+<view class='my'>
+  <view class="user-img">
+    <image src="{{ wxuserInfo.avatarUrl }}" class='img'></image>
+    <text class='nick-name'>{{ wxuserInfo.nickName }}</text>
+  </view>
+  <view class='user-info'>
+    <text class='info-item'>注册时间：<text class='item'>{{ userInfo.time}}</text>
+    </text>
+    <text class='info-item'>性别：<text class='item'>{{ wxuserInfo.gender == 1?'男':'女' }}
+    </text>
+    </text>
+
+    <text class='info-item'>城市：<text class='item'>{{ wxuserInfo.province}} {{ userInfo.city }}</text>
+    </text>
+
+    <text class='info-item'>学校：<text class='item'>{{ userInfo.school}} {{ userInfo.city }}</text>
+    </text>
+
+    <text class='info-item'>公司：<text class='item'>{{ userInfo.company}} {{ userInfo.city }}</text>
+    </text>
+  </view>
+  <view class='about'>
+    <text class='about-item'> 关于我们
+  </text>
+    <text class='about-item'> 联系我们
+  </text>
+  </view>
+</view>

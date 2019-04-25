@@ -1,0 +1,14 @@
+<i-cell-group>
+  <scroll-view 
+  bindscrolltolower="moreList">
+    <navigator wx:for="{{blogList}}" wx:key="this.id" url="../info/info?id={{item.id}}">
+      <i-card i-class="car" title="" extra="{{item.title}}" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+        <view slot="content">发布：<text class='content'>{{ item.userName }}</text></view>
+        <view slot="footer">{{item.time}}</view>
+      </i-card>
+    </navigator>
+  </scroll-view>
+</i-cell-group>
+<view wx-if="nomore" class='nomore'>
+没有更多了
+</view>

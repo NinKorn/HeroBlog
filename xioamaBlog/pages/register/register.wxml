@@ -1,0 +1,12 @@
+<!--pages/login/login.wxml-->
+<i-panel title="基础用法">
+    <i-input value="{{ userName }}" type="textarea" bind:change="getUserName" title="用户名" autofocus placeholder="请输入昵称" />
+    <i-input value="{{ password }}" bind:change="getPass" type="textarea" title="密码" placeholder="请输入密码" />
+    <i-input value="{{ resPassword }}" bind:change="getresPass" error="{{ error }}" type="textarea" title="密码" placeholder="请再次输入密码" maxlength="50" />
+  <i-input value="{{ school }}" bind:change="getSchool" type="textarea" title="学校" placeholder="请输入学校" maxlength="50" />
+  <i-input value="{{ company }}" bind:change="getCompany" type="textarea" title="公司" placeholder="请输入公司" maxlength="50" />
+</i-panel>
+<view wx:if="{{ error }}" class='error' > {{ errorText }} </view>
+<i-button bind:click="handleClick" type="info">注册</i-button>
+<view class='info' bindtap='goLogin'>去登陆</view>
+

@@ -1,0 +1,10 @@
+<view class='login'>
+<view class='title'>添加或注册账号</view>
+  <i-panel title="基础用法">
+    <i-input value="{{ userName }}" type="textarea" bind:change="getUserName" title="用户名" autofocus placeholder="请输入昵称" />
+    <i-input value="{{ password }}" bind:change="getPass" type="textarea" title="密码" placeholder="请输入密码" />
+  </i-panel>
+</view>
+<view wx:if="{{ error }}" class='error'> {{ errorText }} </view>
+<i-button bind:click="handleClick" type="info">登陆</i-button>
+<view class='info' bindtap='goRegister'>还没账号！去注册</view>
